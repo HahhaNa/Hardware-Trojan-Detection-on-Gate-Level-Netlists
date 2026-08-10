@@ -1,0 +1,19 @@
+Test Results (Original Files Only)
+==================================
+
+Gate-Level Metrics:
+  Precision: 0.9528
+  Recall: 0.9780
+  F1 Score: 0.9652
+  AUC: 0.9975
+  Confusion Matrix: TP=9984, FP=495, FN=225, TN=29351
+
+Graph-Level Metrics:
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+  Confusion Matrix: TP=20, FP=0, FN=0, TN=1
+
+Threshold: 0.850
+Training completed at epoch: 146
+Best model from epoch: 121

@@ -1,0 +1,21 @@
+# Python 3.10 (developed and tested on 3.10.18)
+#
+# PyTorch 2.2.2 is the last release with prebuilt macOS x86_64 wheels.
+# On Linux/CUDA you can safely bump torch and install the matching
+# torch-geometric build from https://data.pyg.org/whl/
+
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+torch-geometric==2.6.1
+
+numpy==1.26.4
+scipy==1.15.3
+pandas==2.3.0
+scikit-learn==1.7.0
+networkx==3.4.2
+tqdm==4.67.1
+
+# Optional: only needed for plotting in debug_predictions.py
+matplotlib==3.10.3
+seaborn==0.13.2

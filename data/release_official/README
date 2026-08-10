@@ -1,0 +1,20 @@
+This release includes the latest designs and results, updating the synthesis flow.
+
+## Design Files
+Designs 0-9: Each design contains one corresponding trojan.
+- design0.v contains trojan0.v
+- design1.v contains trojan1.v
+- ...
+- design9.v contains trojan9.v
+
+Designs 10-19: Each design contains a unique random trojan.
+
+Designs 20-29: These designs are trojan-free.
+
+
+## Reference Results
+Results 0–19: Each file includes the trojan gate reference for its corresponding design.
+- result0.txt: Reference answer for design0.v
+- result1.txt: Reference answer for design1.v
+- ...
+- result19.txt: Reference answer for design19.v

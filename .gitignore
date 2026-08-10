@@ -1,0 +1,43 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+
+# ---- Generated datasets (regenerate with the scripts in src/) ----
+# Augmented netlists: src/data_augmentation.py
+data/augmented_heavy/
+data/augmented_offh/
+data/augmented_data/
+# Trojan-inserted netlists: src/trojan_insertion.py
+data/self_data/trojan/
+data/TrojanInserted/
+
+# ---- Encoded feature caches (large pickles) ----
+*.pkl
+!models/feature_scaler.pkl
+src/cache/
+
+# ---- Training artifacts ----
+models/archive/
+models/training_checkpoint.pth
+models/final_checkpoint.pth
+models/final_model_augmented.pth
+
+# ---- Debug / scratch output ----
+results/debug_results/
+results/_smoketest.csv
+*.log
+
+# ---- OS / editor ----
+.DS_Store
+.idea/
+.vscode/
+*.swp
