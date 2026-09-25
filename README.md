@@ -110,7 +110,7 @@ more complicated architecture.
 
 ### Data augmentation
 
-Two generators turn the 30 base designs into roughly 13,000 training circuits.
+Two generators turn the 30 base designs into a corpus of 7,068 circuits.
 
 `data_augmentation.py` rewrites 5 to 25 percent of the gates in each netlist into
 logic-equivalent forms, turning `xor` into `nand` plus `not`, `or` into `nor` plus `not`,
@@ -285,7 +285,7 @@ Writes per-gate scores and confusion details for each design into `results/debug
 | `data/TrojanDef` | 10 standalone Trojan payloads used for insertion | yes |
 | `data/self_data/trojan_free` | 18 hand-written clean circuits (ALU, barrel shifter, CRC32, FIFO and others) | yes |
 | `data/self_data/trojan` | 540 circuits produced by `trojan_insertion.py` | generated |
-| `data/augmented_heavy` | About 13k augmented netlists, 2.3 GB | generated |
+| `data/augmented_heavy` | About 7k augmented netlists plus their label files, 2.3 GB | generated |
 | `data/augmented_offh` | About 1.5k augmented netlists, lighter variant | generated |
 
 ## Limitations
